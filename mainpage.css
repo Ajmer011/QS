@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5faff;
+    color: #333;
+  }
+  
+  .app {
+    text-align: center;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 15px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .navbar {
+    border: none; 
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(7, 7, 7, 0.1); 
+    
+  }
+  
+  
+  .navbar a {
+  color: #000;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: inline-block; 
+  transition: background-color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+  background-color: rgba(7, 8, 7, 0.1); 
+  }
+  
+  
+  .navbar .profile-btn {
+    background: #06f429;
+    /* border-radius: 100px; */
+    border-radius: calc(40px);
+  }
+  
+  .main {
+    padding: 40px 20px;
+    padding-left: 270px;
+  }
+  
+  .main h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .main p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .search-input {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ded7d7;
+    border-radius: 7px 0 0 5px;
+    background: #656667;
+  }
+  
+  .search-btn {
+    padding: 10px 20px;
+    background: #e9ecee;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .suggestions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .suggestion-btn {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+    /* transition: background 0.3s; */
+  }
+  
+  .suggestion-btn:hover {
+    background: #f0f0f0;
+  }
+  

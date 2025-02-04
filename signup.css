@@ -1,0 +1,116 @@
+/* SignupPage.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #09090e;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .signup-page {
+    width: 90%;
+    /* max-width: 700px; */
+    /* margin-left: 0px; */
+    padding: 35px;
+    padding-left: 30px;
+    background-color: #202124;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .signup-container h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #00aaff;
+    padding-left: 50px;
+  }
+  
+  .signup-container h2 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #cccccc;
+  }
+  
+  .signup-container p {
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .signup-container a {
+    color: #00aaff;
+    text-decoration: none;
+  }
+  
+  .signup-container a:hover {
+    text-decoration: underline;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #3c6e83;
+    border-radius: 10px;
+    background-color: #1e1e2f;
+    color: #fff;
+    width: 450px;
+  
+  }
+  
+  .form-group input::placeholder {
+    color: #464444;
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    border-color: #00aaff;
+  }
+  
+  .btn-primary {
+    background-color: #00aaff;
+    color: #fff;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+    width: 472px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0077cc;
+  }
+  
+  .btn-secondary {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 472px;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #555;
+  }
+  

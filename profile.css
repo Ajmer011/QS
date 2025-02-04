@@ -1,0 +1,76 @@
+.profile-settings-container {
+    display: flex;
+    font-family: Arial, sans-serif;
+  }
+  
+  .sidebar {
+    background-color: #04050f;
+    color: white;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .profile-picture {
+    background-color: #f8f6f6;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 10px auto;
+  }
+  
+  .main-content {
+    width: 75%;
+    padding: 20px;
+  }
+  
+  .form-section,
+  .experience-section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #477cec;
+  }
+  
+  .profile-form,
+  .experience-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .form-group {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .form-group input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: none;
+    height: 80px;
+  }
+  
+  .save-button,
+  .experience-button {
+    background-color: #14a446;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .save-button:hover,
+  .experience-button:hover {
+    background-color: #6a1b9a;
+  }
+  
